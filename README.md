@@ -11,9 +11,9 @@ Local manifest for CM12.1, BlissPop, PAC, temasek:
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
 
-  <project name="X9180/android_kernel_zte_x9180.git" path="kernel/ZTE/X9180" remote="github" revision="cm-12.1" />
-  <project name="X9180/android_device_zte_x9180.git" path="device/ZTE/X9180" remote="github" revision="cm-12.1" />
-  <project name="X9180/android_device_zte_x9180_proprietary.git" path="vendor/ZTE/X9180" remote="github"revision="cm-12.1" />
+  <project name="flwh/android_kernel_zte_x9180.git" path="kernel/ZTE/X9180" remote="github" revision="cm-12.1" />
+  <project name="flwh/android_device_zte_x9180.git" path="device/ZTE/X9180" remote="github" revision="cm-12.1" />
+  <project name="flwh/android_device_zte_x9180_proprietary.git" path="vendor/ZTE/X9180" remote="github"revision="cm-12.1" />
 
 </manifest>
 ```

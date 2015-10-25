@@ -1,4 +1,4 @@
-Device configuration for the ZTE V5 RedBull (X9180)Resurrection-Remix-LP-v5.5.8
+Device configuration for the ZTE V5 RedBull (X9180)
 ===============================
 
 Local manifest for CM12.1, BlissPop, PAC, Resurrection-Remix-LP-v5.5.8，temasek:

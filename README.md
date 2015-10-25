@@ -6,33 +6,19 @@ Local manifest for CM12.1, BlissPop, PAC, temasek:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@gitlab.com" name="gitlab" />
+  
 
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
 
-  <project name="X9180/android_kernel_zte_x9180.git" path="kernel/ZTE/X9180" remote="gitlab" revision="cm-12.1" />
-  <project name="X9180/android_device_zte_x9180.git" path="device/ZTE/X9180" remote="gitlab" revision="cm-12.1" />
-  <project name="X9180/android_device_zte_x9180_proprietary.git" path="vendor/ZTE/X9180" remote="gitlab" revision="cm-12.1" />
+  <project name="X9180/android_kernel_zte_x9180.git" path="kernel/ZTE/X9180" remote="github" revision="cm-12.1" />
+  <project name="X9180/android_device_zte_x9180.git" path="device/ZTE/X9180" remote="github" revision="cm-12.1" />
+  <project name="X9180/android_device_zte_x9180_proprietary.git" path="vendor/ZTE/X9180" remote="github"revision="cm-12.1" />
 
 </manifest>
 ```
 
-Local manifest for MoKee L:
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote fetch="ssh://git@gitlab.com" name="gitlab" />
-
-  <project name="MoKee/android_device_qcom_common" path="device/qcom/common" />
-  <project name="MoKee/android_hardware_qcom_fm" path="hardware/qcom/fm" />
-
-  <project name="X9180/android_kernel_zte_x9180.git" path="kernel/ZTE/X9180" remote="gitlab" revision="cm-12.1" />
-  <project name="X9180/android_device_zte_x9180.git" path="device/ZTE/X9180" remote="gitlab" revision="cm-12.1" />
-  <project name="X9180/android_device_zte_x9180_proprietary.git" path="vendor/ZTE/X9180" remote="gitlab" revision="cm-12.1" />
-
-</manifest>
 ```
 
 Make rule for PAC ROM (vendor/pac/products/pac_X9180.mk):

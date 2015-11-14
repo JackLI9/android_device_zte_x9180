@@ -38,6 +38,11 @@ persist.fuse_sdcard=false
 
 persist.radio.multisim.config=dsds
 
+#add model number
+persist.sys.modelnumber=ZTE V5
+
+dalvik.vm.dex2oat-swap=false
+
 persist.sys.bluetooth.name=ZTE V5
 
 persist.sys.timezone=Europe/Moskow
@@ -52,6 +57,11 @@ ro.product.model=X9180
 ro.product.device=X9180
 
 telephony.lteOnCdmaDevice=1
+persist.radio.apm_sim_not_pwdn=1
+ro.telephony.ril.config=simactivation
+persist.data.qmi.adb_logmask=0
+ril.ecclist=112,911,110,122,119,120,000,118
+ril.ecclist1=112,911,110,122,119,120,000,118
 
 vidc.debug.level=1
 
@@ -60,7 +70,9 @@ mm.enable.vsync.render=1
 #property to support SSR && AP RESET when kernel panic.(1,1) to disable, (3,0) to enable
 persist.sys.ssr.restart_level=3
 persist.sys.ap.restart_level=0
-
+vold.pfe=deactivated
+# Wifi
+ro.disableWifiApFirmwareReload=true
 ro.min_freq_0=787200
 
 persist.sys.strictmode.disable=true

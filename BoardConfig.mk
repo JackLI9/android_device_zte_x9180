@@ -198,10 +198,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 # SELinux
 -include device/qcom/sepolicy/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += \
-    device/ZTE/X9180/sepolicy
-
-
 # Vold
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 BOARD_VOLD_MAX_PARTITIONS := 40
@@ -228,20 +224,5 @@ SKIP_BOOT_JARS_CHECK := true
 # inherit from the proprietary version
 -include vendor/ZTE/X9180/BoardConfigVendor.mk
 
-ifneq ($(BLISS_VERSION),)
-    # BlissPop Config Flags
-    BLISS_WIPE_CACHES := 0
-    TARGET_TC_ROM := 4.8-sm
-    TARGET_TC_KERNEL := 4.8-sm
-    BLISSIFY := true
-    BLISS_O3 := true
-    BLISS_STRICT := false
-    BLISS_GRAPHITE := true
-    BLISS_KRAIT := true
-    BLISS_PIPE := true
-    TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
-    TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 
-    #SaberMod
-    -include vendor/bliss/config/sm.mk
 endif

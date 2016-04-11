@@ -16,10 +16,7 @@ Local manifest for CM13.0:
   <project name="flwh/android_device_zte_x9180_proprietary.git" path="vendor/ZTE/X9180" remote="github"revision="cm-13.0" />
 
 </manifest>
-```
-
-
-```
+``
 
 
 

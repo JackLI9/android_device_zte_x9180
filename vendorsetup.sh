@@ -1,9 +1,6 @@
 add_lunch_combo cm_X9180-userdebug
 add_lunch_combo cm_X9180-eng
 
-add_lunch_combo mk_X9180-userdebug
-add_lunch_combo mk_X9180-eng
-
 add_lunch_combo pac_X9180-userdebug
 add_lunch_combo pac_X9180-eng
 
